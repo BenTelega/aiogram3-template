@@ -16,7 +16,7 @@ DB_CONN_STRING=postgresql+asyncpg://{username}:{password}@{host}:{port}/{databas
 ```console
 $ > pip install poetry
 $ > poetry install
-& > poetry run app.py
+$ > poetry run app.py
 ```
 
 ### There are also Others Opportunities here: 
