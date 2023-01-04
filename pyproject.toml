@@ -8,11 +8,11 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.9"
 aiogram = {url = "https://github.com/aiogram/aiogram/archive/refs/heads/dev-3.x.zip"}
-python-dotenv = "^0.21.0"
-apscheduler = "^3.9.1.post1"
-py-json-config = "^0.1.1"
-sqlalchemy = "^1.4.45"
-asyncpg = "^0.27.0"
+python-dotenv = "0.21.0"
+apscheduler = "3.9.1.post1"
+py-json-config = "0.1.1"
+sqlalchemy = "1.4.45"
+asyncpg = "0.27.0"
 
 
 [build-system]
