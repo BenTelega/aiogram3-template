@@ -1,5 +1,5 @@
-from .utils.tables.admins import Admins
+from .utils.tables.users import Users
 from .utils.databases import *
 
 database = Database()
-admins = Admins(database=database)
+users = Users(database=database)

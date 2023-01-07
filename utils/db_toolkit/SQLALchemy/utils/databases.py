@@ -18,7 +18,7 @@ conn_string: dialect+driver://username:password@host:port/database
 		self.engine: AsyncEngine = create_async_engine(conn_string, pool_pre_ping=True)
 		self.metadata: sqlalchemy.MetaData = sqlalchemy.MetaData()
 
-		self.admins = models.Admins(self.metadata).get_table()
+		self.users = models.Users(self.metadata).get_table()
 
 	async def create_all(self):
 		async with self.engine.begin() as conn:
