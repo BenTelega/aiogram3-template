@@ -1,7 +1,7 @@
 from dotenv import load_dotenv 
 from os import getenv
 
-load_dotenv('./settings/.env')
+load_dotenv('../.env')
 
 # getting
 BOT_TOKEN = getenv('BOT_TOKEN')

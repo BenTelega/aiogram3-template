@@ -1,7 +1,7 @@
 # Template Aiogram 3 with SQLAlchemy
 
 ### Quickly start:
-#### You need to create ```.env``` file in ```./settings``` folder and add there these values:
+#### You need to create ```.env``` file in the root folder and add there these values:
 
 ```
 BOT_TOKEN=
