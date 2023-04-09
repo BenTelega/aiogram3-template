@@ -9,4 +9,4 @@ RUN poetry install
 
 WORKDIR /app/src
 
-CMD [ "poetry", "python", "app.py" ]
+CMD [ "poetry", "run", "python", "app.py" ]

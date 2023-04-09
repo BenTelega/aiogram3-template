@@ -13,7 +13,6 @@ from settings import config
 from utils.middlewares import tech_works
 
 from utils import keyboards
-from utils.db_toolkit import db_toolkit as db
 
 # logger setting up
 logger = logging.getLogger(__name__)

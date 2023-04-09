@@ -4,7 +4,7 @@ import bot
 from services import APScheduler 
 
 async def main():
-    # APScheduler.setup()
+    APScheduler.setup()
     await bot.setup()
 
 if __name__ == "__main__":

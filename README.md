@@ -22,7 +22,6 @@ $ > poetry run app.py
 ### There are also Others Opportunities here: 
 - APScheduler
 - Logger
-- JSONConfig -> [docs here](https://github.com/enveloss/py_json_config)
+- Pydantic to parse json config
 - Made Middlewares 
 - Simple admin-section (you need to setting it)
-- Tools to use db
