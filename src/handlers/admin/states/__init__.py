@@ -1,3 +1,3 @@
-from modules import Router
+from aiogram import Router
 
 router = Router()

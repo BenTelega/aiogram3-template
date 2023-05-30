@@ -1,5 +1,5 @@
 from typing import List 
-from modules import types
+from aiogram import types
 
 def k_formatter(array: List[list]) -> types.ReplyKeyboardMarkup:
     keyboard = [[]]
@@ -31,3 +31,7 @@ def back() -> types.ReplyKeyboardMarkup:
     return k_formatter([
         ["⬅️ Назад"]
     ])
+
+MENU = menu()
+ADMIN = admin()
+BACK = back()

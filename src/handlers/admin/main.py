@@ -1,11 +1,11 @@
-from modules import * 
-from aiogram.filters import BaseFilter
+from aiogram import Router, filters, F, types
 from utils import functions
+from keyboards import *
 
 router = Router()
 
 
-class AdminFilter(BaseFilter): 
+class AdminFilter(filters.BaseFilter): 
     async def __call__(self, message: types.Message) -> bool:
         pass
 

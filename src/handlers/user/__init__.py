@@ -1,4 +1,4 @@
-from modules import * 
+from aiogram import Router
 from . import main, inline, states
 
 router = Router()

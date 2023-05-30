@@ -1,10 +1,4 @@
-from dotenv import load_dotenv 
-from os import getenv
-from . import json_config
+from pydantic import BaseModel
 
-json = lambda: json_config.Config.parse_file('./settings/config.json')
-
-load_dotenv('../.env')
-
-# getting
-BOT_TOKEN = getenv('BOT_TOKEN')
+class Config(BaseModel):
+    admins: list[int]

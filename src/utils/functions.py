@@ -1,4 +1,4 @@
-from modules import *
+from aiogram import types
 
 def check_start_command(text: str) -> dict:
 	result = {
@@ -23,7 +23,7 @@ def check_start_command(text: str) -> dict:
 	
 	return result
 
-async def handler_start_command(message: aiogram.types.Message, command: str, data: str, payload: dict=None) -> None:
+async def handler_start_command(message: types.Message, command: str, data: str, payload: dict=None) -> None:
 	if command == 'ref':
 		if payload['is_new']:
 			pass
